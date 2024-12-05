@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+
+.custom-date-range {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type="date"]:focus {
+    border-color: #66e968;
+    box-shadow: 0 0 5px rgba(111, 233, 102, 0.6);
+}
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.preset-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.preset-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #00852a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.preset-buttons button:hover {
+    background-color: #00b36b;
+    border:none
+}
+
+.preset-buttons button:active {
+    background-color: #00852a;
+}
+
+
+
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-picker-container h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+}

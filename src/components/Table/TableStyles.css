@@ -1,0 +1,54 @@
+.table-container {
+    width: 100%;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+th:hover {
+    background-color: #ddd;
+}
+
+th span {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.table-container {
+    font-family: Arial, sans-serif;
+}
+
+.custom-table th {
+    font-size: 18px;
+}
+
+.custom-table td {
+    font-size: 16px;
+}
